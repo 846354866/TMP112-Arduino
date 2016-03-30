@@ -2,9 +2,6 @@
 This code is used to read data from a TMP112 temperature sensor using the Arduino prototyping platform.
 The connections on the chip should be as follows:
 
-  -   
-
-
 | TMP112  (pin)| Arduino MEGA 2560  (pin)|
 | --------|-------------------------------|
 |SCL (1)  | SCL (21)                      |
