@@ -2,13 +2,17 @@
 This code is used to read data from a TMP112 temperature sensor using the Arduino prototyping platform.
 The connections on the chip should be as follows:
 
-TMP112  (pin)  -   Arduino MEGA 2560  (pin)
-SCL (1)     -   SCL (21)
-GND (2)     -   GND (GND)
-ALERT (3)   -   (Not Connected)
-ADDR0 (4)   -   (3.3V)
-V+  (5)     -   (3.3V)
-SDA (6)     -   SDA (20)
+  -   
+
+
+| TMP112  (pin)| Arduino MEGA 2560  (pin)|
+| --------|-------------------------------|
+|SCL (1)  | SCL (21)                      |
+|GND (2)  | GND (GND)                     |
+|ALERT (3)| (Not Connected)               |
+|ADDR0 (4)| (3.3V)                        |
+|V+  (5)  | (3.3V)                        |
+|SDA (6)  | SDA (20)                      |
 
 There are 5k pullup resisors on the SCL,SDA and the ALERT pins of the chip and a 0.01uF supply bypass capacitor.
 
